@@ -1,0 +1,15 @@
+Package: fqqc
+Type: Package
+Title: Calculate Quality Metrics on FastQ Files
+Version: 0.1
+Date: 2015-08-05
+Authors@R: person("Luobin", "Yang", email = "yangluob@isu.edu", role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line)
+URL: http://github.com/luobiny/fqqc
+BugReports: http://github.com/luobiny/issues
+Depends: ShortRead (>= 1.26.0)
+License: What license is it under?
+LazyData: TRUE
+Suggests: knitr,
+    testthat
+VignetteBuilder: knitr
