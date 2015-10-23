@@ -9,7 +9,7 @@ q2.fname <- sapply(samples, function(x) fname_f(x, "cycle_quality_2.tab"))
 
 q1.list <- vector("list", length(samples))
 q2.list <- vector("list", length(samples))
-for (i in seq(1, 6)) {
+for (i in seq(1, length(q1.list))) {
     q1 <- read.table(q1.fname[i], header=TRUE, row.names=1, sep="\t")
     colnames(q1) <- paste("Q", seq(0, 41), sep="")
 	q1.list[[i]] <- colSums(q1)
